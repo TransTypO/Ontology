@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#"
+     xml:base="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO"
+     xmlns:TyO="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#hasAtor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#hasAtor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Privacidade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Ator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#hasIdentidadeAutoSoberana -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#hasIdentidadeAutoSoberana">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#TipoTransacao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#hasPrivacidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#hasPrivacidade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#TipoTransacao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Privacidade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Aplicacao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Aplicacao">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#TipoTransacao"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Autenticacao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Autenticacao">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#ChavePublica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#ChavePublica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Contexto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Contexto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#DadoSensivel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#DadoSensivel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Privacidade"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Dominio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Dominio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#TipoTransacao"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#PeriodoFim -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#PeriodoFim">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#DadoSensivel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Privacidade"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#PeriodoInicio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#PeriodoInicio">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#DadoSensivel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Privacidade"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Proposito -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Proposito">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#TipoTransacao"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Servico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Servico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Ator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Ator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#IdentidadeAutoSoberana"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Privacidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#Privacidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#TipoTransacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marco/ontologies/2024/1/TransTypO#TipoTransacao"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
