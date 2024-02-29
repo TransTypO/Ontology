@@ -1,5 +1,5 @@
-# Ontology
-TransTypO - Transaction Type Ontology for Distributed Ledger Technology Networks with Privacy Rules Observance
+# TransTypO
+Transaction Type Ontology for Distributed Ledger Technology Networks with Privacy Rules Observance
 
 Currently, with the advancement of communication technologies, the concern of ordinary users, institutions, and developers with the privacy of sensitive data has increased, whether these concerns are related to physical, financial, or moral security. In response, good privacy management is necessary for digital transactions of products or services, especially those related to information technology. This document aims to propose a new ontology to describe the knowledge necessary for the design of applications that record transactions in DLT networks, supporting the developer to recognize the mandatory attributes for a process and the attributes that, despite adding to the information, the user of the application should manage, its de facto owner, introducing the concept of Self-Sovereign Identity to the work. As a proof of concept, we connect the new TransTypO ontology with an ontology proposed in the literature, Blondie, which describes the knowledge contained in DLT networks of the Hyperledger Fabric blockchain ledger type and the SEM ontology, Simple Event Model, for the use of the specific type of transactions in accounting for outdoor presence. Our contribution provides conceptual clarity through an ontology to help direct future research.
 
